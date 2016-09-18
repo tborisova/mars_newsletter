@@ -15,7 +15,7 @@
   
    POST /entries
    params: entry[title], entry[body]
-   headers: access-token, uid, client
+   headers: access-token, uid, client(received in headers when signing in)
   
   * fetch all newsletters:
    GET /newsletters
